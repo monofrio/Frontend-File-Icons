@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?rfjl46');
-    src:    url('fonts/icomoon.eot?rfjl46#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?rfjl46') format('truetype'),
-        url('fonts/icomoon.woff?rfjl46') format('woff'),
-        url('fonts/icomoon.svg?rfjl46#icomoon') format('svg');
+    src:    url('fonts/icomoon.eot?6klnia');
+    src:    url('fonts/icomoon.eot?6klnia#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?6klnia') format('truetype'),
+        url('fonts/icomoon.woff?6klnia') format('woff'),
+        url('fonts/icomoon.svg?6klnia#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,6 +26,9 @@
 
 .icon-jade:before {
     content: "\e90d";
+}
+.icon-php:before {
+    content: "\f135";
 }
 .icon-git:before {
     content: "\e602";
@@ -54,7 +57,7 @@
 .icon-node:before {
     content: "\e618";
 }
-.icon-Node_logo:before {
+.icon-node_logo:before {
     content: "\e619";
 }
 .icon-ember:before {
@@ -65,9 +68,6 @@
 }
 .icon-html5:before {
     content: "\e636";
-}
-.icon-php:before {
-    content: "\e63d";
 }
 .icon-drupal:before {
     content: "\e642";
@@ -135,3 +135,4 @@
 .icon-photoshop:before {
     content: "\e6b8";
 }
+
