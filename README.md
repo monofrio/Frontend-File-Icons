@@ -1,6 +1,7 @@
 # Frontend File Icons
 
 Here is the list of icons in this font package.
+Uses IcoMoon.io to build font package. 
 
 #### VCS
 - git
