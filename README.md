@@ -1,7 +1,12 @@
+<<<<<<< Updated upstream
 # Frontend File Icons
 
 Here is the list of icons in this font package.
 Uses IcoMoon.io to build font package. 
+
+```
+$ npm install frontend_file_icons
+```
 
 #### VCS
 - git
@@ -57,3 +62,12 @@ Uses IcoMoon.io to build font package.
 - Linkedin
 - Photoshop
 - Illustrator
+=======
+# MOD Icons 
+Frontend web development icons for portfolio sites.
+With the help of https://icomoon.io/
+
+
+
+
+>>>>>>> Stashed changes
