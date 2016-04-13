@@ -1,8 +1,12 @@
 
 # Frontend File Icons
 
-Here is the list of icons in this font package.
-Uses IcoMoon.io [https://icomoon.io/] to build font package. 
+I wanted a small package of all the file icons and logos i would need 
+for my portfolio project. Using https://icomoon.io/ to build font 
+package.
+
+Thanks to vorillaz for providing most of the icons. https://github.com/vorillaz/devicons
+
 
 ```
 $ npm install frontend_file_icons
