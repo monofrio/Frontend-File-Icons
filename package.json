@@ -1,6 +1,6 @@
 {
   "name": "frontend-file-icons",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This is a font package for frontend developers portfoio pages to show diffrent styles users may use as a frontend developer.",
   "main": "index.js",
   "scripts": {
