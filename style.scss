@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?g2qajm');
-    src:    url('fonts/icomoon.eot?g2qajm#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?g2qajm') format('truetype'),
-        url('fonts/icomoon.woff?g2qajm') format('woff'),
-        url('fonts/icomoon.svg?g2qajm#icomoon') format('svg');
+    src:  url('fonts/icomoon.eot?8w0onl');
+    src:  url('fonts/icomoon.eot?8w0onl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8w0onl') format('truetype'),
+    url('fonts/icomoon.woff?8w0onl') format('woff'),
+    url('fonts/icomoon.svg?8w0onl#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,15 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-display:before {
+    content: "\e900";
+}
+.icon-mobile:before {
+    content: "\e901";
+}
+.icon-tablet:before {
+    content: "\e902";
+}
 .icon-git:before {
     content: "\e602";
 }
@@ -129,31 +138,52 @@
 .icon-photoshop:before {
     content: "\e6b8";
 }
+.icon-untitled:before {
+    content: "\e903";
+}
+.icon-linkedin:before {
+    content: "\e904";
+}
 .icon-jade:before {
     content: "\e90d";
 }
 .icon-php:before {
     content: "\f135";
 }
-.icon-creativeCloud .path1:before {
-    content: "\e900";
-    color: rgb(255, 255, 255);
+.icon-uniE606:before {
+    content: "\e606";
 }
-.icon-creativeCloud .path2:before {
-    content: "\e901";
-    margin-left: -1.3603515625em;
-    color: rgb(0, 0, 0);
+.icon-uniE60E:before {
+    content: "\e60e";
 }
-.icon-creativeCloud .path3:before {
-    content: "\e902";
-    margin-left: -1.3603515625em;
-    color: rgb(255, 255, 255);
+.icon-uniE616:before {
+    content: "\e616";
 }
-.icon-creativeCloud .path4:before {
-    content: "\e903";
-    margin-left: -1.3603515625em;
-    color: rgb(255, 255, 255);
+.icon-uniE622:before {
+    content: "\e622";
 }
-.icon-linkedin:before {
-    content: "\e904";
+.icon-uniE639:before {
+    content: "\e639";
 }
+.icon-uniE63B:before {
+    content: "\e63b";
+}
+.icon-uniE63C:before {
+    content: "\e63c";
+}
+.icon-uniE653:before {
+    content: "\e654";
+}
+.icon-uniE655:before {
+    content: "\e655";
+}
+.icon-uniE657:before {
+    content: "\e657";
+}
+.icon-uniE659:before {
+    content: "\e659";
+}
+.icon-uniE695:before {
+    content: "\e695";
+}
+
