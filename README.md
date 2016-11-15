@@ -10,9 +10,9 @@ Thanks to vorillaz for providing most of the icons. https://github.com/vorillaz/
 Need to have [NPM](https://www.npmjs.com/) installed.
 
 npm
-,,,shell
+'''shell
 npm install frontend_file_icons
-,,,
+'''
 
 ## List of icons
 
