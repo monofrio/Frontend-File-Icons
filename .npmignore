@@ -8,3 +8,5 @@ README.md
 /frontend-file-icons
 selection.json
 /node_modules
+gulpfile.js
+yarn.lock

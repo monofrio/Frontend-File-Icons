@@ -1,16 +1,20 @@
-
 # Frontend File Icons
 
-I wanted a small package of all the file icons and logos i would need 
-for my portfolio project. Using https://icomoon.io/ to build font 
+I wanted a lightweight package of all the file icons and logos i would need
+for my portfolio project. Using https://icomoon.io/ to build font
 package.
 
 Thanks to vorillaz for providing most of the icons. https://github.com/vorillaz/devicons
 
+## Getting Started
+Need to have [NPM](https://www.npmjs.com/) installed.
 
-```
-$ npm install frontend_file_icons
-```
+npm
+,,,shell
+npm install frontend_file_icons
+,,,
+
+## List of icons
 
 #### VCS
 - git
@@ -81,5 +85,4 @@ $ npm install frontend_file_icons
 - Illustrator
 - Code
 - Codepen
-- Command linee
-=======
+- Command line
