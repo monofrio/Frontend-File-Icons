@@ -61,6 +61,7 @@ $ npm install frontend_file_icons
 ### framework
 - Rails
 - Symphony
+- Bootstrap
 
 #### package managers
 - bower
@@ -80,5 +81,5 @@ $ npm install frontend_file_icons
 - Illustrator
 - Code
 - Codepen
-- Command line
+- Command linee
 =======
