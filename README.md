@@ -21,9 +21,12 @@ $ npm install frontend_file_icons
 - windows
 - apple
 - linux
+- android
+- raspberry pi
 
 #### Database
 - mysql
+- database icon
 
 #### CMS
 - wordpress
@@ -48,12 +51,21 @@ $ npm install frontend_file_icons
 - CSS3
   - SASS
   - LESS
-- javascript
-- php
+  - Stylus
+- Javascript
+- PHP
+- Ruby
+- Python
+- Swift
+
+### framework
+- Rails
+- Symphony
 
 #### package managers
 - bower
 - npm
+- composer
 
 #### Text Editor
 - Atom
@@ -61,9 +73,12 @@ $ npm install frontend_file_icons
 - Dreamweaver
 
 #### Other
-- Jade
+- Jade (Has been renamed to Pug)
 - CreativeCloud
 - Linkedin
 - Photoshop
 - Illustrator
+- Code
+- Codepen
+- Command line
 =======
