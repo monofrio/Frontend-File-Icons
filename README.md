@@ -18,11 +18,25 @@ npm i frontend-file-icons
 ##### Dependencies
 - npm i gulp
 - npm i gulp-sass
+- npm i gulp-clean
 ```
 /** Move frontend-file-icons font files to the fonts folders */
 gulp.task('moveFileIcons', function(){
+
+ gulp.src('./fonts/frontend-file-icons.eot')
+      .pipe(clean());
+
+  gulp.src('./fonts/frontend-file-icons.svg')
+      .pipe(clean());
+
+  gulp.src('./fonts/frontend-file-icons.woff')
+      .pipe(clean());
+
+  gulp.src('./fonts/frontend-file-icons.ttf')
+      .pipe(clean());
+
     gulp.src('node_modules/Frontend-File-Icons/fonts/*')
-        .pipe(gulp.dest('./fonts'))
+        .pipe(gulp.dest('./fonts'));
 });
 
 ```
