@@ -15,10 +15,19 @@ npm i frontend-file-icons
 ```
 
 ### Work with Gulp
-**Dependencies **
+##### Dependencies
 - npm i gulp
-- npm i gulp-plumber
 - npm i gulp-sass
+```
+/** Move frontend-file-icons font files to the fonts folders */
+gulp.task('moveFileIcons', function(){
+    gulp.src('node_modules/Frontend-File-Icons/fonts/*')
+        .pipe(gulp.dest('./fonts'))
+});
+
+```
+
+
 
 ### Work with SASS
 ```
