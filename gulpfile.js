@@ -15,14 +15,14 @@ gulp.task('default', ['rename', 'rename2'] );
 /** Rename the css file to a scss file type to use in SASS styles */
 gulp.task('rename', function(){
   gulp.src('./icomoon/style.css')
-    .pipe(rename("./scss/mod-icons.scss"))
+    .pipe(rename("./scss/frontend-file-icons.scss"))
     .pipe(gulp.dest('./'));
 });
 /** Rename font files to frontend-file-icons */
 gulp.task('rename2', function(){
 
   gulp.src('./fonts/frontend-file-icons.eot')
-      .pipe(clean());
+    .pipe(clean());
 
   gulp.src('./fonts/frontend-file-icons.svg')
       .pipe(clean());
@@ -33,7 +33,7 @@ gulp.task('rename2', function(){
   gulp.src('./fonts/frontend-file-icons.ttf')
       .pipe(clean());
 
-/** ---------------------------------------- */
+  /** ---------------------------------------- */
 
   gulp.src('./icomoon/fonts/icomoon.eot')
       .pipe(rename("frontend-file-icons.eot"))

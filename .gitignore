@@ -1,6 +1,5 @@
 .idea
 .DS_Store
-/demo-files
 /node_modules
 npm-debug.log
 /Company-images

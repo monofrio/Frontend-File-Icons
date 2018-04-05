@@ -45,7 +45,7 @@ gulp.task('moveFileIcons', function(){
 
 ### Work with SASS
 ```
-@import 'node_modules/Frontend-File-Icons/mod-icons.scss'
+@import 'node_modules/Frontend-File-Icons/frontend-file-icons.scss'
 ```
 
 

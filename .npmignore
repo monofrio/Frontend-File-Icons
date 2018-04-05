@@ -1,6 +1,5 @@
 .idea
 .DS_Store
-README.md
 /Company-images
 /node_modules
 gulpfile.js
