@@ -49,7 +49,8 @@ Run Gulp
 
 ### Work with SASS
 ```
-@import 'node_modules/Frontend-File-Icons/frontend-file-icons.scss'
+@import '../../node_modules/frontend-file-icons/scss/frontend-file-icons.scss';
+
 ```
 
 ## List of icons
