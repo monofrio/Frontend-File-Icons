@@ -9,12 +9,19 @@ Thanks to vorillaz for providing most of the icons. https://github.com/vorillaz/
 ## Getting Started
 Need to have [NPM](https://www.npmjs.com/) installed.
 
-npm
-'''shell
-npm install frontend_file_icons
+Install
+'''
+npm i frontend-file-icons
 '''
 
 ## List of icons
+
+
+### Custom Icons
+
+- Map / Adventure
+- IOT / Electronics
+- 3D Printing / 3D Design
 
 #### VCS
 - git
@@ -78,7 +85,6 @@ npm install frontend_file_icons
 - Dreamweaver
 
 #### Other
-- Jade (Has been renamed to Pug)
 - CreativeCloud
 - Linkedin
 - Photoshop
@@ -86,3 +92,4 @@ npm install frontend_file_icons
 - Code
 - Codepen
 - Command line
+

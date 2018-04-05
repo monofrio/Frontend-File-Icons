@@ -23,5 +23,8 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2"
+  },
+  "dependencies": {
+    "npm": "^5.8.0"
   }
 }
