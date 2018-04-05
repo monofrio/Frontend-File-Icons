@@ -9,16 +9,14 @@ Thanks to vorillaz for providing most of the icons. https://github.com/vorillaz/
 ## Getting Started
 Need to have [NPM](https://www.npmjs.com/) installed.
 
-Install
-'''
+## Install
+```
 npm i frontend-file-icons
-'''
+```
 
 ## List of icons
 
-
-### Custom Icons
-
+#### Custom Icons
 - Map / Adventure
 - IOT / Electronics
 - 3D Printing / 3D Design
