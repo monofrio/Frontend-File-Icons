@@ -10,3 +10,5 @@ selection.json
 /node_modules
 gulpfile.js
 yarn.lock
+icomoon
+*.zip
