@@ -14,6 +14,19 @@ Need to have [NPM](https://www.npmjs.com/) installed.
 npm i frontend-file-icons
 ```
 
+### Work with Gulp
+**Dependencies **
+- npm i gulp
+- npm i gulp-plumber
+- npm i gulp-sass
+
+### Work with SASS
+```
+@import 'node_modules/Frontend-File-Icons/mod-icons.scss'
+```
+
+
+
 ## List of icons
 
 #### Custom Icons

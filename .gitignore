@@ -1,13 +1,7 @@
 .idea
 .DS_Store
 /demo-files
-demo.html
-Read Me.txt
-README.txt
 /node_modules
 npm-debug.log
-/PNG
-/SVG
 /Company-images
-/icomoon
 *.zip
