@@ -40,8 +40,13 @@ gulp.task('moveFileIcons', function(){
     gulp.src('node_modules/Frontend-File-Icons/fonts/*')
         .pipe(gulp.dest('./fonts'));
 });
+```
+Run Gulp
+```
+ gulp moveFileIcons
 
 ```
+
 ### Work with SASS
 ```
 @import 'node_modules/Frontend-File-Icons/frontend-file-icons.scss'
