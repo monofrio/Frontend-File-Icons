@@ -1,4 +1,6 @@
 # Frontend File Icons
+This is a font package for frontend developers portfoio pages to show 
+diffrent styles users may use as a frontend developer.
 
 I wanted a lightweight package of all the file icons and logos i would need
 for my portfolio project. Using https://icomoon.io/ to build font
@@ -40,15 +42,10 @@ gulp.task('moveFileIcons', function(){
 });
 
 ```
-
-
-
 ### Work with SASS
 ```
 @import 'node_modules/Frontend-File-Icons/frontend-file-icons.scss'
 ```
-
-
 
 ## List of icons
 
