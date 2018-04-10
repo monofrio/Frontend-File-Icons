@@ -1,7 +1,7 @@
 {
   "name": "frontend-file-icons",
-  "version": "1.0.5",
-  "description": "This is a font package for frontend developers portfoio pages to show diffrent styles users may use as a frontend developer.",
+  "version": "2.0.0",
+  "description": "NOTE: Core Updates in 2.0. This is a font package for frontend developers portfoio pages to show diffrent styles users may use as a frontend developer.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
