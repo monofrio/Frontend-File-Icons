@@ -1,9 +1,8 @@
 .idea
 .DS_Store
-/demo-files
-demo.html
-Read Me.txt
-README.md
 /Company-images
-/frontend-file-icons
-selection.json
+/node_modules
+gulpfile.js
+yarn.lock
+icomoon
+*.zip

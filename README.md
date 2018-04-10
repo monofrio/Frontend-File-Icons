@@ -1,33 +1,84 @@
-
 # Frontend File Icons
+This is a font package for frontend developers portfoio pages to show 
+diffrent styles users may use as a frontend developer.
 
-I wanted a small package of all the file icons and logos i would need 
-for my portfolio project. Using https://icomoon.io/ to build font 
+I wanted a lightweight package of all the file icons and logos i would need
+for my portfolio project. Using https://icomoon.io/ to build font
 package.
 
 Thanks to vorillaz for providing most of the icons. https://github.com/vorillaz/devicons
 
+## Getting Started
+Need to have [NPM](https://www.npmjs.com/) installed.
+
+## Install
 ```
-$ npm install frontend_file_icons
+npm i frontend-file-icons
 ```
+
+### Work with Gulp
+##### Dependencies
+- npm i gulp
+- npm i gulp-sass
+- npm i gulp-clean
+```
+/** Move frontend-file-icons font files to the fonts folders */
+gulp.task('moveFileIcons', function(){
+
+ gulp.src('./fonts/frontend-file-icons.eot')
+      .pipe(clean());
+
+  gulp.src('./fonts/frontend-file-icons.svg')
+      .pipe(clean());
+
+  gulp.src('./fonts/frontend-file-icons.woff')
+      .pipe(clean());
+
+  gulp.src('./fonts/frontend-file-icons.ttf')
+      .pipe(clean());
+
+    gulp.src('node_modules/Frontend-File-Icons/fonts/*')
+        .pipe(gulp.dest('./fonts'));
+});
+```
+Run Gulp
+```
+ gulp moveFileIcons
+
+```
+
+### Work with SASS
+```
+@import '../../node_modules/frontend-file-icons/scss/frontend-file-icons.scss';
+
+```
+
+## List of icons
+
+#### Custom Icons
+- Map / Adventure
+- IOT / Electronics
+- 3D Printing / 3D Design
 
 #### VCS
-- Git ![Git icon](PNG/git.png)
-- Github Icon ![Github Logo Icon](PNG/github_logo.png)
-- Github Logo ![Github Icon Icon](PNG/github.png) 
+- git
+- github icon
+- github logo
 
 #### OS
-- Windows ![Windows Icon](PNG/window.png)
-- Apple ![Apple Icon](PNG/apple.png)
-- Linux ![Linux](PNG/linux.png)
+- windows
+- apple
+- linux
+- android
+- raspberry pi
 
 #### Database
-- mysql ![MySQL Icon](PNG/mysql.png)
-- datebase ![Database Icon](PNG/.png)
+- mysql
+- database icon
 
 #### CMS
-- Wordpress ![Wordpress Icon](PNG/wordpress.png)
-- Drupal ![Drupal Icon](PNG/drupal.png)
+- wordpress
+- drupal
 
 #### JS
 - node icon
@@ -48,12 +99,22 @@ $ npm install frontend_file_icons
 - CSS3
   - SASS
   - LESS
-- javascript
-- php
+  - Stylus
+- Javascript
+- PHP
+- Ruby
+- Python
+- Swift
+
+### framework
+- Rails
+- Symphony
+- Bootstrap
 
 #### package managers
 - bower
 - npm
+- composer
 
 #### Text Editor
 - Atom
@@ -61,9 +122,11 @@ $ npm install frontend_file_icons
 - Dreamweaver
 
 #### Other
-- Jade (Has been renamed to Pug)
 - CreativeCloud
 - Linkedin
 - Photoshop
 - Illustrator
-=======
+- Code
+- Codepen
+- Command line
+

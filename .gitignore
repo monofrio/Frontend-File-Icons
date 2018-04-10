@@ -1,9 +1,6 @@
 .idea
 .DS_Store
-/demo-files
-demo.html
-Read Me.txt
 /node_modules
-/PNG
-/SVG
+npm-debug.log
 /Company-images
+*.zip
