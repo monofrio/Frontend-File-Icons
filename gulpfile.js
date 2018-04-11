@@ -9,6 +9,7 @@
 var gulp = require('gulp'),
     rename = require('gulp-rename'),
     clean = require('gulp-clean');
+var replace = require('gulp-replace');
 
 gulp.task('default', ['rename', 'rename2'] );
 
