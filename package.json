@@ -1,6 +1,6 @@
 {
   "name": "frontend-file-icons",
-  "version": "2.0.0",
+  "version": "1.2.0",
   "description": "NOTE: Core Updates in 2.0. This is a font package for frontend developers portfoio pages to show diffrent styles users may use as a frontend developer.",
   "main": "index.js",
   "scripts": {
